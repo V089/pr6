@@ -131,6 +131,51 @@
         height: 230px;
         background: url(./img/img.png);
     }
+    .main__stip-under-picture{
+        width: 320px;
+        height: 1px;
+        background: #D9FFF5;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .main__tablet--text {
         display: none;
