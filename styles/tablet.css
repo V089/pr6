@@ -1,0 +1,121 @@
+@media screen and (min-width : 768px) {
+    .header__tablet--divider {
+        position: relative;
+        width: 2px;
+        height: 32px;
+        border-radius: 1px;
+        background: #EAEAEA;
+        margin-top: 28px;
+        right: 25px;
+    }
+
+    .header__tablet--icon--call {
+        position: relative;
+        background: url(./img/icon/call.svg);
+        width: 40px;
+        height: 42px;
+        margin-top: 24px;
+        left: 140px;
+    }
+
+    .header__tablet--icon--chat {
+        position: relative;
+        background: url(./img/icon/message.svg);
+        width: 40px;
+        height: 42px;
+        margin-top: 24px;
+        left: 110px;
+    }
+
+    .header__tablet--icon--profile {
+        position: relative;
+        background: url(./img/icon/profile.svg);
+        width: 40px;
+        height: 42px;
+        margin-top: 24px;
+        left: 80px;
+    }
+
+    .header__icon--logo {
+        position: relative;
+        background: url(./img/icon/cps_logo.svg);
+        width: 96px;
+        height: 50px;
+        margin-top: 18px;
+        right: 45px;
+    }
+
+    .header__divider {
+        position: relative;
+        width: 2px;
+        height: 32px;
+        border-radius: 1px;
+        background: #EAEAEA;
+        margin-top: 28px;
+        left: 55px;
+    }
+
+    .header__icon--repair {
+        position: relative;
+        background: url(./img/icon/repair.svg);
+        width: 40px;
+        height: 40px;
+        margin-top: 24px;
+        left: 30px;
+    }
+
+    .main__tablet--text {
+        display: block;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
+    .main__mobile--text {
+        display: none;
+    }
+
+    .main__mobile--expand--text {
+        width: auto;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+
+    .main__expand--button {
+        background: url(./img/icon/expand.svg);
+        width: 24px;
+        height: 24px;
+        margin-left: 26px;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        white-space: nowrap;
+        border: 0px;
+
+    }
+
+    .main__picture {
+        position: relative;
+        width: 360px;
+        height: 260px;
+        background: url(./img/cps.png);
+        left: 390px;
+        bottom: 235px;
+        margin-left: 0px;
+    }
+
+    .main__laptop--text {
+        display: none;
+    }
+}
