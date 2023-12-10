@@ -118,4 +118,60 @@
     .main__laptop--text {
         display: none;
     }
-}
+
+    .main__scroller--brands{
+        overflow-x: hidden;
+        gap: 24px;
+        margin-left: 24px;
+        flex-wrap: wrap;
+        margin-top: 16px;
+        
+    }
+    .main__box{
+        display: none;
+        
+    }
+    .main__box--arrow{
+        margin-left: 170px;
+    }
+    .main__box--tablet--brands{
+        width: 224px;
+        height: 72px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background: #FFF;
+    }
+    #main__box--tablet-brands--hidden{
+        display: none;
+        width: 224px;
+        height: 72px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background: #FFF;
+    }
+    .main__box--tablet-brands--hidden:active{
+        display: block;
+    }
+    .main__scroller--repairs{
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-left: 24px;
+        gap: 24px;
+    }
+    .main__box-repairs{
+        display: none;
+    }
+    .main__box-repairs--tablet{
+        width: 224px;
+        height: 160px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background: #FFF
+    }
+    .main__box-repairs--arrow{
+        margin-left: 170px;
+    }
+}   
