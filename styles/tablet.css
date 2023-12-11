@@ -193,6 +193,7 @@
 
     }
     .main__expand--text--tablet {
+        display: block;
         width: auto;
         height: auto;
         margin-top: -3px;
@@ -230,6 +231,7 @@
         margin-left: -200px;
     }
     .main__prices--tablet{
+        display: block;
         position: relative;
         width: 720px;
         height: 324px;

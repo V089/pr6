@@ -382,6 +382,15 @@
         width: 218px;
         margin-left: 50px;
     }
+    .main__expand--text--tablet{
+        display: none;
+    }
+    .main__prices-text--tablet--container{
+        display: none;
+    }
+    .main__prices--tablet{
+        display: none;
+    }
     
 
 
