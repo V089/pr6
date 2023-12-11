@@ -317,9 +317,30 @@
         margin-left: -688px;
         margin-top: 65px;
     }
-    
-
-
+    .main__last-text{
+        width: 421px;
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+    .main__text-offer{
+        width: 292px;
+        margin-left: 24px;
+        margin-top: -64px;
+    }
+    .main__more--buttom{
+        position: relative;
+        left: 170px;
+        bottom: 25px;
+    }
+    .footer__container {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .footer__text{
+        margin-left: 24px;
+        margin-top: 32px;
+    }
     .main__box-prices{
         display: none;
     }
