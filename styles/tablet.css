@@ -174,4 +174,165 @@
     .main__box-repairs--arrow{
         margin-left: 170px;
     }
+    .main__expand--button--tablet{
+        background: url(./img/icon/expand.svg);
+        width: 24px;
+        height: 24px;
+        margin-left: 16px;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        white-space: nowrap;
+        border: 0px;
+        margin-left: 20px;
+        margin-top: 25px;
+
+    }
+    .main__expand--text--tablet {
+        width: auto;
+        height: auto;
+        margin-top: -3px;
+        margin-left: 28px;
+    }
+    .main__prices-text--tablet--container{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 31px;
+        gap: 254px;
+    }
+    .main__prices-text--first{
+        color: #7E7E82;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; 
+    }
+    .main__prices-text--second{
+        color: #7E7E82;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; 
+    }
+    .main__prices-text--third{
+        color: #7E7E82;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; 
+        margin-left: -200px;
+    }
+    .main__prices--tablet{
+        position: relative;
+        width: 720px;
+        height: 324px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #FFF;
+        margin-left: 24px;
+        margin-top: 16px;
+    }
+    .main__prices--tablet--text-container{
+        display: flex;
+        margin-top: 23px;
+        margin-left: 16px;
+        text-wrap: nowrap;
+    }
+    .main__prices--tablet--text-first{
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; 
+        letter-spacing: 0.2px;
+    }
+    .main__prices--tablet--text-second{
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; 
+        letter-spacing: 0.2px;
+        margin-left: 284px;
+    }
+    .main__prices--tablet--text-third{
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; 
+        letter-spacing: 0.2px;
+        margin-left: 22px;
+    }
+    .prices__buttom--tablet{
+        width: 119px;
+        height: 32px;
+        background: url(./img/icon/rectangle.svg);
+        fill: #FF3E79;
+    }
+    .prices__buttom--tablet--text{
+        position: relative;
+        color: #FFF;
+        text-align: right;
+        font-family: TT Lakes;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; 
+        letter-spacing: -0.15px;
+        text-transform: uppercase;
+        top: 5px;
+        right: 45px;
+    }
+    .prices__buttom--tablet--arrow{
+        position: relative;
+        background: url(./img/icon/goside.svg);
+        width: 24px;
+        height: 24px;
+        margin-top: -20px;
+        margin-left: 90px;
+    }
+    .prices__dividing-line{
+        width: 688px;
+        height: 1px;
+        flex-shrink: 0;
+        background: #EAEAEA;
+        margin-left: -688px;
+        margin-top: 65px;
+    }
+    
+
+
+    .main__box-prices{
+        display: none;
+    }
+    .prices__text--container--grey{
+        display: none;
+    }
+    .prices__text--grey{
+        display: none;
+    }
+    .prices__text--grey--notcont{
+        display: none;
+    }
+    .prices__text--container--black{
+        display: none;
+    }
+    .prices__text--black{
+        display: none
+    }
+    .main__scroller--prices{
+        display: none;
+    }
+
 }   
