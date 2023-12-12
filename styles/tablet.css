@@ -119,22 +119,25 @@
         display: none;
     }
 
-    .main__scroller--brands{
+    .main__scroller--brands {
         overflow-x: hidden;
         gap: 24px;
         margin-left: 24px;
         flex-wrap: wrap;
         margin-top: 16px;
-        
+
     }
-    .main__box{
+
+    .main__box {
         display: none;
-        
+
     }
-    .main__box--arrow{
+
+    .main__box--arrow {
         margin-left: 170px;
     }
-    .main__box--tablet--brands{
+
+    .main__box--tablet--brands {
         width: 224px;
         height: 72px;
         flex-shrink: 0;
@@ -142,7 +145,8 @@
         border: 1px solid #EAEAEA;
         background: #FFF;
     }
-    #main__box--tablet-brands--hidden{
+
+    #main__box--tablet-brands--hidden {
         display: none;
         width: 224px;
         height: 72px;
@@ -151,19 +155,23 @@
         border: 1px solid #EAEAEA;
         background: #FFF;
     }
-    .main__box--tablet-brands--hidden:active{
+
+    .main__box--tablet-brands--hidden:active {
         display: block;
     }
-    .main__scroller--repairs{
+
+    .main__scroller--repairs {
         overflow: hidden;
         flex-wrap: wrap;
         margin-left: 24px;
         gap: 24px;
     }
-    .main__box-repairs{
+
+    .main__box-repairs {
         display: none;
     }
-    .main__box-repairs--tablet{
+
+    .main__box-repairs--tablet {
         width: 224px;
         height: 160px;
         flex-shrink: 0;
@@ -171,10 +179,12 @@
         border: 1px solid #EAEAEA;
         background: #FFF
     }
-    .main__box-repairs--arrow{
+
+    .main__box-repairs--arrow {
         margin-left: 170px;
     }
-    .main__expand--button--tablet{
+
+    .main__expand--button--tablet {
         background: url(./img/icon/expand.svg);
         width: 24px;
         height: 24px;
@@ -192,6 +202,7 @@
         margin-top: 25px;
 
     }
+
     .main__expand--text--tablet {
         display: block;
         width: auto;
@@ -199,38 +210,43 @@
         margin-top: -3px;
         margin-left: 28px;
     }
-    .main__prices-text--tablet--container{
+
+    .main__prices-text--tablet--container {
         display: flex;
         margin-left: 40px;
         margin-top: 31px;
         gap: 254px;
     }
-    .main__prices-text--first{
+
+    .main__prices-text--first {
         color: #7E7E82;
         font-family: TT Lakes;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 16px; 
+        line-height: 16px;
     }
-    .main__prices-text--second{
+
+    .main__prices-text--second {
         color: #7E7E82;
         font-family: TT Lakes;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 16px; 
+        line-height: 16px;
     }
-    .main__prices-text--third{
+
+    .main__prices-text--third {
         color: #7E7E82;
         font-family: TT Lakes;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 16px; 
+        line-height: 16px;
         margin-left: -200px;
     }
-    .main__prices--tablet{
+
+    .main__prices--tablet {
         display: block;
         position: relative;
         width: 720px;
@@ -242,47 +258,53 @@
 
         margin-top: 16px;
     }
-    .main__prices--container{
+
+    .main__prices--container {
         display: flex;
         width: auto;
         height: auto;
     }
-    .main__prices--tablet--text-container{
+
+    .main__prices--tablet--text-container {
         display: flex;
         margin-top: 23px;
         margin-left: 16px;
         text-wrap: nowrap;
     }
-    .main__prices--tablet--text-first{
+
+    .main__prices--tablet--text-first {
         color: #1B1C21;
         font-family: TT Lakes;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 18px; 
+        line-height: 18px;
         letter-spacing: 0.2px;
     }
-    .main__prices--tablet--text-second{
+
+    .main__prices--tablet--text-second {
         color: #1B1C21;
         font-family: TT Lakes;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 18px; 
+        line-height: 18px;
         letter-spacing: 0.2px;
         margin-left: 284px;
     }
-    .main__prices--tablet--text-third{
+
+    .main__prices--tablet--text-third {
         color: #1B1C21;
         font-family: TT Lakes;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 18px; 
+        line-height: 18px;
         letter-spacing: 0.2px;
         margin-left: 22px;
     }
-    .prices__buttom--tablet{
+
+    .prices__buttom--tablet {
         width: 119px;
         height: 32px;
         background: url(./img/icon/rectangle.svg);
@@ -290,7 +312,8 @@
         margin-top: 15px;
         margin-left: 70px;
     }
-    .prices__buttom--tablet--text{
+
+    .prices__buttom--tablet--text {
         position: relative;
         color: #FFF;
         text-align: right;
@@ -298,13 +321,14 @@
         font-size: 12px;
         font-style: normal;
         font-weight: 700;
-        line-height: 24px; 
+        line-height: 24px;
         letter-spacing: -0.15px;
         text-transform: uppercase;
         top: 5px;
         right: 45px;
     }
-    .prices__buttom--tablet--arrow{
+
+    .prices__buttom--tablet--arrow {
         position: relative;
         background: url(./img/icon/goside.svg);
         width: 24px;
@@ -312,7 +336,8 @@
         margin-top: -20px;
         margin-left: 90px;
     }
-    .prices__dividing-line{
+
+    .prices__dividing-line {
         width: 688px;
         height: 1px;
         flex-shrink: 0;
@@ -320,50 +345,62 @@
         margin-left: -688px;
         margin-top: 65px;
     }
-    .main__last-text{
+
+    .main__last-text {
         width: 421px;
         margin-top: 24px;
         margin-left: 24px;
     }
-    .main__text-offer{
+
+    .main__text-offer {
         width: 292px;
         margin-left: 24px;
         margin-top: -64px;
     }
-    .main__more--buttom{
+
+    .main__more--buttom {
         position: relative;
         left: 170px;
         bottom: 25px;
     }
+
     .footer__container {
         display: flex;
         flex-direction: row;
         gap: 8px;
     }
-    .footer__text{
+
+    .footer__text {
         margin-left: 24px;
         margin-top: 32px;
     }
-    .main__box-prices{
-        display: none;
-    }
-    .prices__text--container--grey{
-        display: none;
-    }
-    .prices__text--grey{
-        display: none;
-    }
-    .prices__text--grey--notcont{
-        display: none;
-    }
-    .prices__text--container--black{
-        display: none;
-    }
-    .prices__text--black{
-        display: none
-    }
-    .main__scroller--prices{
+
+    .main__box-prices {
         display: none;
     }
 
-}   
+    .prices__text--container--grey {
+        display: none;
+    }
+
+    .prices__text--grey {
+        display: none;
+    }
+
+    .prices__text--grey--notcont {
+        display: none;
+    }
+
+    .prices__text--container--black {
+        display: none;
+    }
+
+    .prices__text--black {
+        display: none
+    }
+
+    .main__scroller--prices {
+        display: none;
+    }
+
+}
