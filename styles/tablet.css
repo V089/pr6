@@ -403,4 +403,11 @@
         display: none;
     }
 
+    .main__box--laptop--brands {
+        display: none;
+    }
+
+    .main__box-repairs--laptop {
+        display: none;
+    }
 }

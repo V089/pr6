@@ -391,7 +391,9 @@
     .main__prices--tablet{
         display: none;
     }
-    
+    .main__side-menu{
+        display: none;
+    }
 
 
 
