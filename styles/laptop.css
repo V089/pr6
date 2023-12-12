@@ -182,4 +182,69 @@
     .side-menu__language:hover{
         color: #7E7E82;
     }
+    .main__box--tablet--brands{
+        display: none;
+    }
+    .main__box-repairs--tablet{
+        display: none;
+    }
+    .main__prices--tablet{
+        width: 1056px;
+        margin-left: 32px;
+    }
+    .main__scroller--brands{
+        margin-left: 32px;
+    } 
+    .main__titles{
+        margin-left: 32px;
+    }
+    .main__scroller--repairs{
+        margin-left: 32px;
+    }
+    .main__expand--button--tablet{
+        margin-left: 32px;
+    }
+    .main__last-text{
+        margin-left: 32px;
+    }
+    .main__text-offer{
+        margin-left: 32px;
+    }
+    .main__more--buttom{
+        left: 178px;
+    }
+    .prices__buttom--tablet{
+        margin-left: 205px;
+    }
+    .prices__dividing-line{
+        width: 1008px;
+        margin-left: -1013px;
+    }
+    .main__prices-text--third{
+        margin-left: 20px;
+    }
+    .main__prices--tablet--text-second{
+        margin-left: 261px;
+    }
+    .main__prices--tablet--text-third{
+        margin-left: 250px;
+    }
+    .footer__container {
+        gap: 180px;
+    }
+    .main__box--laptop--brands{
+        width: 240px;
+        height: 72px;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background: #FFF;
+    }
+    .main__box-repairs--laptop{
+        width: 240px;
+        height: 160px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background: #FFF;
+    }
 }
