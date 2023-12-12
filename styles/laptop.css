@@ -8,6 +8,7 @@
     }
     .main{
         width: 1120px;
+        margin-top: -607px;
         margin-left: 320px;
     }
     .main__side-menu {
@@ -147,5 +148,38 @@
         font-weight: 500;
         line-height: 24px; 
         letter-spacing: -0.2px;
+        left: 24px;
+        top: 280px;
+    }
+    .side-menu__number{
+        position: relative;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+        left: 24px;
+        top: 290px;
+    }
+    .side-menu__language--container{
+        display: flex;
+        gap: 7px;
+        position: relative;
+        left: 24px;
+        top: 330px;
+    }
+    .side-menu__language{
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        letter-spacing: -0.2px;
+    }
+    .side-menu__language:hover{
+        color: #7E7E82;
     }
 }
