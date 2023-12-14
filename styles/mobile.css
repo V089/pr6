@@ -7,13 +7,6 @@
         justify-content: space-around;
     }
 
-    .header__icon--burger {
-        background: url(./img/icon/burger.svg);
-        width: 40px;
-        height: 40px;
-        margin-top: 24px;
-    }
-
     .header__icon--logo {
         background: url(./img/icon/cps_logo.svg);
         width: 96px;
@@ -382,6 +375,172 @@
         width: 218px;
         margin-left: 50px;
     }
+
+    .header__icon--burger {
+        background: url(./img/icon/burger.svg);
+        width: 40px;
+        height: 40px;
+        margin-top: 24px;
+        z-index: 1;
+        display: block;
+        position: relative;
+    }
+    .header__icon--burger::before,
+    .header__icon--burger::after {
+        content: '';
+        left: 0;
+        position: absolute;
+        display: block;
+    }
+    .header__icon--burger::before {
+        top: 0;
+        box-shadow: 0 11px 0 #000;
+        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+     }
+    .header__icon--burger::after {
+        bottom: 0;
+        transition: bottom .3s .15s, transform .3s;
+    }   
+
+    .burger__checkbox{
+        position: absolute;
+        visibility: hidden;
+    }
+    .burger__checkbox:checked ~ .main__side-menu--mobile{
+        transform: translateX(0);
+    }
+
+    .main__side-menu--mobile {
+        background: #fff;
+        display: block;
+        position: absolute;
+        transform: translateX(-100%);
+        transition: .3s;
+        width: 320px;
+        height: 100%;
+    }
+
+    .side-menu__search--mobile {
+        position: relative;
+        background: url(./img/icon/search.svg);
+        width: 40px;
+        height: 40px;
+        left: 230px;
+        top: -15px;
+    }
+
+    .side-menu__text--container--mobile {
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        gap: 28.31px;
+        left: 24px;
+        top: 37.19px;
+    }
+
+    .side-menu__text--mobile {
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+
+    }
+
+    .side-menu__icon--container--mobile {
+        display: flex;
+        position: relative;
+        gap: 16px;
+        top: 261px;
+        left: 24px;
+    }
+
+    .side-menu__icon-1--mobile {
+        width: 40px;
+        height: 41.35px;
+        background: url(./img/icon/call.svg);
+    }
+
+    .side-menu__icon-2--mobile {
+        width: 40px;
+        height: 41.35px;
+        background: url(./img/icon/message.svg);
+    }
+
+    .side-menu__icon-3--mobile {
+        width: 40px;
+        height: 41.35px;
+        background: url(./img/icon/profile.svg);
+    }
+
+    .side-menu__mail--mobile {
+        position: relative;
+        width: 106px;
+        height: 24.809px;
+        flex-shrink: 0;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        left: 24px;
+        top: 280px;
+    }
+
+    .side-menu__number--mobile {
+        position: relative;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+        left: 24px;
+        top: 290px;
+    }
+
+    .side-menu__language--container--mobile {
+        display: flex;
+        gap: 7px;
+        position: relative;
+        left: 24px;
+        top: 330px;
+    }
+
+    .side-menu__language--mobile {
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+    }
+
+    .side-menu__language--mobile:hover {
+        color: #7E7E82;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main__side-menu{
+        display: none;
+    }
     .main__expand--text--tablet{
         display: none;
     }
@@ -391,35 +550,7 @@
     .main__prices--tablet{
         display: none;
     }
-    .main__side-menu{
-        display: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
     .main__tablet--text {
         display: none;
