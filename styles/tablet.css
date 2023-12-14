@@ -310,7 +310,7 @@
         background: url(./img/icon/rectangle.svg);
         fill: #FF3E79;
         margin-top: 15px;
-        margin-left: 70px;
+        margin-left: 55px;
     }
 
     .prices__buttom--tablet--text {
@@ -324,8 +324,8 @@
         line-height: 24px;
         letter-spacing: -0.15px;
         text-transform: uppercase;
-        top: 5px;
-        right: 45px;
+        top: 3px;
+        right: 30px;
     }
 
     .prices__buttom--tablet--arrow {
